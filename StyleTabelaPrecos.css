@@ -1,0 +1,62 @@
+/* Global styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.limitar-secao{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* Topo da página */
+
+.topo{
+    background-color: #2f86d6;
+}
+
+.container-topo{
+    position: relative;
+    padding: 35px 0px;
+}
+
+.topo-logo{
+    position: relative;
+}
+
+.topo-logo img{
+    width: 80px;
+}
+
+.topo-logo div{ /* alterando o txt da logo a partir da img */
+    position: absolute;
+    top: 0;
+    left: 90px;
+}
+
+.topo-links{
+    position: absolute;
+    top: 65px;
+    right: 0;
+}
+
+.topo-logo p{
+ color: #fff;
+ font-weight: 600;
+}
+
+.topo-links a{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+
+/* Main Section */
+
